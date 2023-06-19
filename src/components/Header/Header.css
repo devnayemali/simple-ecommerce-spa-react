@@ -1,0 +1,33 @@
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: #fff;
+    border-bottom: 1px solid #80808054;
+}
+
+.menu ul li a {
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+    color: orange;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.logo a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 31px;
+    font-style: italic;
+}

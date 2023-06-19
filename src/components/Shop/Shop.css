@@ -1,0 +1,14 @@
+.product_3_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; 
+}
+.product_img img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop_section{
+    padding: 100px 0;
+}
